@@ -14,7 +14,8 @@ function init() {
   inquirer.prompt(questions).then((answers) => {
     // If 'None' is chosen for license, set it to an empty string
     if (answers.license === 'None') answers.license = '';
-    const markdownContent = generateMarkdown(answers);
+      const markdownContent = generateMarkdown(answers);
+      console.log(markdownContent);
     writeToFile('README.md', markdownContent);
   });
 }

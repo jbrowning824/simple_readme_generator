@@ -21,9 +21,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   const licenseData = licenses.find((l) => l.license === license);
-  return `This project is licensed under the ${licenseData.license}. For more information, see the link below:
-    ${renderLicenseLink(license)}`
-    ? licenseData.badge
+  return licenseData
+    ? `This project is licensed under the ${licenseData.license}. For more information, see the link below:
+    ${renderLicenseLink(license)}` 
     : '';
   
 }

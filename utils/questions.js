@@ -2,7 +2,6 @@
 const licenses = require('./licenses');
 
 //list of questions used for user input
-//used as data for mocking api calls
 const questions = [
     {
         type: 'input',

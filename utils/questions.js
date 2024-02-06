@@ -26,12 +26,12 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contribution',
+        name: 'contributing',
         message: 'How should people contribute to your project?'
     },
     {
         type: 'input',
-        name: 'testing',
+        name: 'tests',
         message: 'How do others test your project?'
     },
     {

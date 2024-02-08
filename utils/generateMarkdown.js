@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   const licenseData = licenses.find((l) => l.license === license);
   return licenseData
-    ? `[Lincense Link (${licenseData.link})`
+    ? `[Lincense Link] (${licenseData.link})`
     : '';
 }
 

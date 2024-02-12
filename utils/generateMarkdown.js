@@ -46,6 +46,7 @@ ${data.description}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+- [Repo](#repo)
 
 ## Installation
 
@@ -68,6 +69,11 @@ ${data.tests}
 For any questions, please contact me at [${data.email}](mailto:${data.email}) or visit my [GitHub profile](https://github.com/${data.github}).
 
 ${renderLicenseSection(data.license)}
+
+## Repo
+Check out [Project Name](Link) repo
+
+Checkout the deployed site at [Project Name](link)
 `;
 }
 
